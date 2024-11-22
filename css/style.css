@@ -163,4 +163,55 @@ a{
 }
 
 /* regole footer */
-.footer
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* debug */
+    height: 600px;
+    background-color: rgb(44, 44, 44);
+}
+
+.box5{
+    width: 22%;
+    margin-bottom: 20px;
+    /* debug */
+    height: 530px; 
+    background-color: rgb(240, 163, 255);
+    border: 3px Dashed black;
+}
+.box55{
+    width: 12%;
+    margin-bottom: 20px;
+    /* debug */
+    height: 530px; 
+    background-color: rgb(0, 183, 255);
+    border: 3px Dashed white;
+}
+/* footer seconda section */
+.footer2{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    /* debug */
+    height: 100px;
+    background-color: rgb(44, 44, 44);
+}
+.footer22{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    /* debug */
+    height: 80px;
+    background-color: rgb(2, 255, 234);
+}
+.button{
+    padding: 5px;
+    font-size: 20px;
+    /* debug */
+    border: 3px Dashed black;
+    background-color: rgb(255, 180, 233);
+}
